@@ -16,7 +16,7 @@
     <img items-center src="https://picsum.photos/1200/900" class="picture" />
 
     <div class="column">
-      <span class="text-h6 text-weight-bolder">Romelie Galabin</span>
+      <span class="text-h6 text-weight-bolder">Romelei Galabin</span>
       <span class="text-subtitle1">Web Developer</span>
     </div>
 

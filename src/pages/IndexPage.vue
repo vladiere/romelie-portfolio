@@ -21,7 +21,7 @@
       </div>
       <div :class="!Platform.is.mobile ? 'col-5 column details' : 'column details'">
         <h3>
-          Romelie
+          Romelei
           <span>Galabin</span>
         </h3>
         <div class="column">
