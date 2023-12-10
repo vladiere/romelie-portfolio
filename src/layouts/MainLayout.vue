@@ -6,7 +6,7 @@
           flat
           dense
           round
-          icon="menu"
+          icon="mdi-close"
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />

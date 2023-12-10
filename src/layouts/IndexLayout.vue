@@ -18,7 +18,7 @@
     </q-header>
 
     <q-drawer :width="360" show-if-above v-model="leftDrawerOpen" side="left" bordered elevated>
-      <q-btn v-if="Platform.is.mobile" @click="leftDrawerOpen = !leftDrawerOpen" flat dense icon="mdi-menu" color="dark" class="q-ma-md absolute-top-right"/>
+      <q-btn v-if="Platform.is.mobile" @click="leftDrawerOpen = !leftDrawerOpen" flat dense icon="mdi-close" color="dark" class="q-ma-md absolute-top-right"/>
       <div class="column q-gutter-y-md text-h6 text-weight-light content-center window-height flex flex-center upper-div">
         <router-link to="/" :style="routeName === 'home' ? 'border-bottom: 1px solid #ffd1dc; color: #101010' : 'color: grey'" class="q-px-md">Home</router-link>
         <router-link to="about" :style="routeName === 'about' ? 'border-bottom: 1px solid #ffd1dc; color: #101010' : 'color: grey'" class="q-px-md">About</router-link>
